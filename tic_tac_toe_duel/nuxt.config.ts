@@ -8,5 +8,10 @@ export default defineNuxtConfig({
         cors: true
       }
     }
-  }
+  },
+  vite: {
+    server: {
+      allowedHosts: true,
+    },
+  },
 })
